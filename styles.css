@@ -1,0 +1,84 @@
+
+.header {
+
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+   
+
+
+body, html {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to bottom right, #ffc0cb, #ffe4e1);
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+}
+
+.container {
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    margin-right: auto;
+  margin-left: auto
+}
+
+.main-image {
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+    color: #e91e63;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.card .love {
+    font-size: 18px;
+    font-weight: bold;
+    color: #d81b60;
+}
+
+button {
+    background-color: #e91e63;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #c2185b;
+}
